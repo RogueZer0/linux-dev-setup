@@ -1,0 +1,5 @@
+# Directories are while, bold and underline
+DIR 01;04;37
+
+# Files are white
+FILE 00;37

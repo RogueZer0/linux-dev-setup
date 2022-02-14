@@ -1,0 +1,58 @@
+" Not compatible with VI
+set nocompatible
+
+" Show mode
+set showmode
+
+" Syntax highlight
+syntax enable
+
+" Tabs
+set expandtab
+set tabstop=4
+set smartindent
+set ai
+set si
+set nowrap
+filetype plugin on
+filetype indent on
+
+" Show line numbers
+set number
+
+" Enable mouse
+set mouse=a
+
+" Keep 100 commands in history
+set history=100
+
+" Auto indent
+set autoindent
+
+" Color scheme and line highlight
+set background=dark
+set cursorline
+hi CursorLine cterm=NONE ctermbg=darkgray ctermfg=NONE
+
+" Show matching bracket
+set showmatch
+
+" No sounds
+set noerrorbells
+
+" Search
+set incsearch
+set hlsearch
+
+" Cursor
+let &t_SI="\e[5 q"
+let &t_EI="\e[5 q"
+
+" Auto complete brackets
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<
