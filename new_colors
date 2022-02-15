@@ -1,5 +1,26 @@
+# DIR = Directory
+# FILE = Regular File
+# LINK = Symbolic Link
+# EXEC = Executable File
+#
+# 00 = None, 01 = Bold, 04 = Underscore, 05 = Blink
+#
+# Text colors
+# 30 = Black, 31 = Red, 32 = Green, 33 = Yellow, 34 = Blue
+# 35 = Magenta, 36 = Cyan, 37 = White
+#
+# Background colors
+# 40 = Black, 41 = Red, 42 = Green, 43 = Yellow, 44 = Blue
+# 45 = Magenta, 46 = Cyan, 47 = White
+
 # Directories are white, bold and underlined
 DIR 01;04;37
 
 # Files are white
 FILE 00;37
+
+# Symbolic Links are same color as target
+LINK target 
+
+# Executables are black text and cyan background
+EXEC 30;46
