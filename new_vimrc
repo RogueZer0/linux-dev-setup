@@ -19,6 +19,7 @@ filetype indent on
 
 " Show line numbers
 set number
+hi LineNr ctermfg=darkgrey
 
 " Enable mouse
 set mouse=a
@@ -32,7 +33,7 @@ set autoindent
 " Color scheme and line highlight
 set background=dark
 set cursorline
-hi CursorLine cterm=NONE ctermbg=darkgray ctermfg=NONE
+hi CursorLine cterm=NONE ctermbg=234
 
 " Show matching bracket
 set showmatch

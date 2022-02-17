@@ -16,4 +16,4 @@ This file changes the default colors of the text on the command line.
 
 
 ### Contributing
-Contributing is welcome! This repo is meant for beginners so if you would like to contribute then make sure your changes are easy for beginners to understand and your code is well commented.
+This repo is meant to show others how I set up my Linux development environment. If you like how I have things set up then I suggest forking the repository so you can experiment and do what you like.
